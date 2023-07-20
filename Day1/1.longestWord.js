@@ -14,7 +14,7 @@
  *    st.length>forstorestr.length
  * 7] then simply store into a my outside variable
  * 8] last return that variable
- * 9] that is forstorestr
+ * 9] that is forstorestr and ans will be morena
  */
 
 let wordstr = "My name is ankit jain & i'm from morena";
