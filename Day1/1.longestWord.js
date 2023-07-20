@@ -16,20 +16,19 @@
  * 8] last return that variable
  */
 
-let arr = "My name is ankit jain & i'm from morena";
+let wordstr = "My name is ankit jain & i'm from morena";
 
-let newarr = arr.split(" ");
+let longeststring = (n) => {
+  let newstr = n.split(" ");
+  let forstorestr = "";
 
-let newarr2 = newarr[0];
-
-let str = (n) => {
-  for (let i = 0; i < n.length; i++) {
-    let st = n[i];
-    if (st.length > newarr2.length) {
-      newarr2 = st;
+  for (let i = 0; i < newstr.length; i++) {
+    let st = newstr[i];
+    if (st.length > forstorestr.length) {
+      forstorestr = st;
     }
   }
-  return newarr2;
+  return forstorestr;
 };
 
-console.log(str(newarr));
+console.log(longeststring(wordstr));
