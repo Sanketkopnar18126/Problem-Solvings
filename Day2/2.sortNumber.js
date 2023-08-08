@@ -20,7 +20,7 @@
 
 let num = [1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0];
 
-let bubbleSort = (arr) => {
+let numsort = (arr) => {
   for (let i = 0; i < arr.length; i++) {
     for (let j = 0; j < arr.length; j++) {
       if (arr[j + 1] < arr[j]) {
@@ -34,7 +34,7 @@ let bubbleSort = (arr) => {
   console.log(num);
 };
 
-bubbleSort(num);
+numsort(num);
 
 /**
  *
@@ -46,7 +46,7 @@ bubbleSort(num);
 
 // let num = [1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0];
 
-// let bubbleSort = (arr) => {
+// let numsort = (arr) => {
 //   for (let i = arr.length; i > 0; i--) {
 //     for (let j = arr.length; j > 0; j--) {
 
@@ -63,4 +63,4 @@ bubbleSort(num);
 //   console.log(num);
 // };
 
-// bubbleSort(num);
+// numsort(num);
